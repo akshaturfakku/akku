@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <hr>
+    <form action="mailto:joe@example.com?subject=feedback" method="post" enctype="text/plain">
+      <label>Your Name: </label>
+      <input type="text" name="Name" value="">
+      <br><br><br>
+      <label>Your Mobile: </label>
+      <input type="text" name="Mobile" value="">
+      <br><br><br>
+      <label>Your Email: </label>
+      <input type="email" name="E-mail ID" value="">
+      <br><br><br>
+      <label>Gender:</label><br>
+      <label for="Male">Male</label>
+      <input type="radio" name="Gender" value="Male">
+      <label for="Female">Female</label>
+      <input type="radio" name="Gender" value="Female">
+      <label for="Trans">Trans</label>
+      <input type="radio" name="Gender" value="Trans">
+      <br><br><br>
+      <label>Your Message or Query:</label><br>
+      <textarea name="Message" rows="20" cols="20"></textarea>
+      <br><br><br>
+      <label>Do you agree to share data you filled up to the admin</label>
+      <input type="checkbox" name="Declaration" value="Agree to send Data">
+      <br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
